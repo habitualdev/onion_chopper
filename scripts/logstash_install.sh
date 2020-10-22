@@ -1,8 +1,8 @@
 #!/bin/bash
 #Install Required packages
 apt install -y ruby openjdk-11-jdk
-gem install -y rake
-gem install -y bundler
+gem install rake
+gem install bundler
 #Pull the latest source
 mkdir logstash
 
